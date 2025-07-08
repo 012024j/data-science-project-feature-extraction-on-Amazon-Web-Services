@@ -77,7 +77,7 @@ Dans le but de sensibiliser le grand public à la biodiversité fruitière et de
 
 ---
 
-## 🛡️ RGPD
+## RGPD
 
 Toutes les ressources AWS ont été déployées en **région européenne** (eu-west-3) pour garantir la conformité RGPD. Aucun traitement de données personnelles.
 
