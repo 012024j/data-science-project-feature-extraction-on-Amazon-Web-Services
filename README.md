@@ -8,7 +8,7 @@ Dans le but de sensibiliser le grand public à la biodiversité fruitière et de
 
 ---
 
-## 🎯 Objectifs
+## Objectifs
 
 - Réaliser un **traitement Big Data** sur un **jeu de données volumineux d’images de fruits**.
 - Migrer le pipeline local vers une **infrastructure Cloud distribuée** (AWS).
@@ -18,15 +18,15 @@ Dans le but de sensibiliser le grand public à la biodiversité fruitière et de
 
 ---
 
-## 🗂️ Données
+## Données
 
-- 📁 **Dataset utilisé** : [Fruits-360](https://www.kaggle.com/datasets/moltean/fruits)
-- 🖼️ **Nombre d’images** : 138 704
-- 🍍 **Nombre de classes de fruits** : 206
+- **Dataset utilisé** : [Fruits-360](https://www.kaggle.com/datasets/moltean/fruits)
+- **Nombre d’images** : 138 704
+- **Nombre de classes de fruits** : 206
 
 ---
 
-## 🏗️ Architecture Big Data (AWS)
+## Architecture Big Data (AWS)
 
 | Composant | Description |
 |----------|-------------|
@@ -61,10 +61,10 @@ Dans le but de sensibiliser le grand public à la biodiversité fruitière et de
 
 ## Résultats
 
-- ✔️ Traitement distribué exécuté avec succès sur EMR
-- ✔️ Embeddings visuels extraits et compressés
-- ✔️ Réduction à 6 composantes expliquant 98% de la variance
-- ✔️ Pipeline évolutif, prêt à être connecté à un modèle de classification
+- Traitement distribué exécuté avec succès sur EMR
+- Embeddings visuels extraits et compressés
+- Réduction à 6 composantes expliquant 98% de la variance
+- Pipeline évolutif, prêt à être connecté à un modèle de classification
 
 ---
 
@@ -86,7 +86,7 @@ Toutes les ressources AWS ont été déployées en **région européenne** (eu-w
 
 ---
 
-## 🙋 Auteure
+## Auteure
 
  **Oumou Faye**  
 Projet réalisé dans le cadre de la formation **Data Scientist**  
