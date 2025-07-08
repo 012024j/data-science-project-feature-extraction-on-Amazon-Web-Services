@@ -1,6 +1,6 @@
 #  Fruits! - Traitement Big Data sur le Cloud
 
-## 📍 Contexte du projet
+## Contexte du projet
 
 Ce projet s'inscrit dans le cadre d'une mission en tant que **Data Scientist** au sein de la start-up **Fruits!**, une entreprise de l'AgriTech qui développe des solutions innovantes pour la reconnaissance et la classification de fruits à partir d’images.
 
@@ -38,7 +38,7 @@ Dans le but de sensibiliser le grand public à la biodiversité fruitière et de
 
 ---
 
-## 🔁 Pipeline de traitement PySpark
+## Pipeline de traitement PySpark
 
 1. **Chargement des images** depuis S3 + redimensionnement (224x224x3)
 2. **Extraction de caractéristiques visuelles** avec le modèle pré-entraîné **MobileNetV2** (embeddings 1280-dim)
@@ -49,17 +49,17 @@ Dans le but de sensibiliser le grand public à la biodiversité fruitière et de
 
 ---
 
-## ⚙️ Technologies utilisées
+## Technologies utilisées
 
-- 🔥 **PySpark**
-- ☁️ **AWS (S3, EMR, EMR Studio, EC2, IAM)**
-- 📦 **Parquet**
-- 🧠 **TensorFlow / MobileNetV2**
-- 📊 **PCA (ACP)** pour réduction de dimension
+- **PySpark**
+- **AWS (S3, EMR, EMR Studio, EC2, IAM)**
+- **Parquet**
+- **TensorFlow / MobileNetV2**
+- **PCA (ACP)** pour réduction de dimension
 
 ---
 
-## 📈 Résultats
+## Résultats
 
 - ✔️ Traitement distribué exécuté avec succès sur EMR
 - ✔️ Embeddings visuels extraits et compressés
@@ -70,10 +70,10 @@ Dans le but de sensibiliser le grand public à la biodiversité fruitière et de
 
 ##  Perspectives
 
-- 🔁 Tester d'autres modèles d'extraction (ResNet, EfficientNet)
-- 🧠 Entraîner un modèle de classification (MLP, SVM, etc.)
-- 📲 Développer une interface mobile (Streamlit, API)
-- 🔎 Intégrer une surveillance automatisée (logs, métriques, drift)
+- Tester d'autres modèles d'extraction (ResNet, EfficientNet)
+- Entraîner un modèle de classification (MLP, SVM, etc.)
+- Développer une interface mobile (Streamlit, API)
+- Intégrer une surveillance automatisée (logs, métriques, drift)
 
 ---
 
